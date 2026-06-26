@@ -167,6 +167,13 @@ h3 {
   font-size: clamp(1.18rem, 2vw, 1.42rem);
 }
 
+.hero-tagline {
+  margin-bottom: 28px;
+  color: var(--wine-dark);
+  font-size: clamp(1.15rem, 1.8vw, 1.36rem);
+  font-weight: 900;
+}
+
 .hero-actions {
   flex-wrap: wrap;
   gap: 12px;
