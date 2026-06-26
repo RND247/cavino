@@ -217,6 +217,7 @@ h3 {
 
 .intro,
 .split,
+.social,
 .waitlist {
   display: grid;
   grid-template-columns: minmax(0, 0.86fr) minmax(300px, 1fr);
@@ -280,6 +281,32 @@ h3 {
   border-radius: 7px;
   background: rgba(255, 255, 255, 0.58);
   font-weight: 800;
+}
+
+.social {
+  align-items: center;
+  background: var(--paper);
+}
+
+.social-copy {
+  max-width: 620px;
+}
+
+.social-profile {
+  margin-top: 8px;
+}
+
+.instagram-embed-wrapper {
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
+
+.instagram-media {
+  min-width: 326px !important;
+  max-width: 540px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
 }
 
 .waitlist {
@@ -366,6 +393,7 @@ h3 {
   .hero,
   .intro,
   .split,
+  .social,
   .waitlist,
   .steps {
     grid-template-columns: 1fr;
