@@ -1,135 +1,168 @@
 <!doctype html>
-<html lang="en">
+<html lang="he" dir="rtl">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="CaVino is a social board game built around wine tasting, table talk, and playful strategy."
+      content="CaVino הוא משחק טעימות יין חברתי: טועמים יין מוסתר, מהמרים על הלוח, חושפים את התשובות וצוברים צ׳יפים."
     />
     <meta property="og:title" content="CaVino" />
     <meta
       property="og:description"
-      content="A wine-table board game for tastings, friends, and shop events."
+      content="משחק טעימות יין חברתי לערב חברים. הצטרפו לרשימת ההמתנה."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="assets/reference-card.png" />
-    <title>CaVino | Wine Table Board Game</title>
+    <meta property="og:image" content="assets/playmat.jpg" />
+    <title>CaVino | רשימת המתנה</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header" aria-label="Primary">
-      <a class="brand" href="#top" aria-label="CaVino home">
-        <span class="brand-mark">CV</span>
+    <header class="site-header" aria-label="ניווט ראשי">
+      <a class="brand" href="#top" aria-label="CaVino">
+        <span class="brand-mark" aria-hidden="true">CV</span>
         <span>CaVino</span>
       </a>
-      <nav class="nav-links" aria-label="Page sections">
-        <a href="#game">Game</a>
-        <a href="#inside">Inside</a>
-        <a href="#events">Events</a>
-        <a class="nav-cta" href="mailto:hello@example.com?subject=CaVino">Contact</a>
+      <nav class="nav-links" aria-label="מקטעי האתר">
+        <a href="#how">איך משחקים</a>
+        <a href="#inside">מה מקבלים</a>
+        <a class="nav-cta" href="#waitlist">רשימת המתנה</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">Board game for wine nights</p>
+          <p class="eyebrow">בקרוב</p>
           <h1 id="hero-title">CaVino</h1>
           <p class="hero-text">
-            A social tabletop game that turns wine tasting into a shared challenge:
-            compare notes, trade smartly, and keep the conversation flowing.
+            משחק טעימות יין חברתי: טועמים יין מוסתר, מהמרים על מה שיש בכוס,
+            חושפים את התשובות וצוברים צ׳יפים.
           </p>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="mailto:hello@example.com?subject=CaVino preorder">
-              Ask about CaVino
-            </a>
-            <a class="button secondary" href="#game">See the game</a>
+          <div class="hero-actions" aria-label="פעולות ראשיות">
+            <a class="button primary" href="#waitlist">הצטרפות לרשימת ההמתנה</a>
+            <a class="button secondary" href="#how">איך זה עובד</a>
           </div>
         </div>
 
-        <div class="hero-board" aria-label="CaVino game preview">
+        <figure class="hero-board" aria-label="לוח המשחק של CaVino">
           <img
-            src="assets/reference-card.png"
-            alt="CaVino reference card with wine details"
-            class="reference-card"
+            src="assets/playmat.jpg"
+            alt="לוח המשחק של CaVino עם אזורי הימור על זן ענבים, מדינה, יבשת, מחיר, דירוג ועוד"
           />
-          <img
-            src="assets/player-notes.png"
-            alt="CaVino player notes sheet"
-            class="notes-card"
-          />
-        </div>
+        </figure>
       </section>
 
-      <section class="section intro" id="game" aria-labelledby="game-title">
+      <section class="section intro" id="how" aria-labelledby="how-title">
         <div>
-          <p class="eyebrow">What it is</p>
-          <h2 id="game-title">A tasting game with enough structure to make every pour matter.</h2>
+          <p class="eyebrow">הרעיון</p>
+          <h2 id="how-title">טעימת יין הופכת למשחק.</h2>
         </div>
         <p>
-          CaVino is built for groups around a table: players taste, make calls, use
-          chips, and react to what everyone else is doing. It works for casual wine
-          nights, hosted tastings, and shop events where people want a reason to
-          talk about what they are drinking.
+          בכל סיבוב מוזגים יין מוסתר. השחקנים מריחים, טועמים, מדברים ומהמרים
+          בצ׳יפים על תכונות היין: זן, מדינה, יבשת, טווח מחיר, גיל, דירוג ועוד.
+          אחרי החשיפה, הימורים נכונים מקבלים תשלום מהבנק.
         </p>
       </section>
 
-      <section class="feature-grid" aria-label="CaVino highlights">
+      <section class="steps" aria-label="איך משחקים">
         <article>
-          <h3>Social by design</h3>
-          <p>Easy to enter, built around conversation, and made for groups up to 10 players.</p>
+          <span>1</span>
+          <h3>טועמים</h3>
+          <p>הסומלייה מוזג יין מוסתר וקורא עובדה קצרה מהעטיפה.</p>
         </article>
         <article>
-          <h3>Tasting-first</h3>
-          <p>Reference cards and notes help players observe, compare, and remember each wine.</p>
+          <span>2</span>
+          <h3>מהמרים</h3>
+          <p>מניחים צ׳יפים על הלוח לפי מה שחושבים שיש בכוס.</p>
         </article>
         <article>
-          <h3>Event-ready</h3>
-          <p>Good for wine shops, private hosts, and evenings that need a guided activity.</p>
+          <span>3</span>
+          <h3>חושפים</h3>
+          <p>פותחים את המעטפה, בודקים תשובות ומשלמים הימורים מנצחים.</p>
+        </article>
+        <article>
+          <span>4</span>
+          <h3>ממשיכים</h3>
+          <p>הסומלייה מתחלף. בסוף הערב מי שצבר הכי הרבה צ׳יפים מנצח.</p>
         </article>
       </section>
 
       <section class="section split" id="inside" aria-labelledby="inside-title">
         <div>
-          <p class="eyebrow">In the box</p>
-          <h2 id="inside-title">Everything needed to run a CaVino table.</h2>
+          <p class="eyebrow">בערכה</p>
+          <h2 id="inside-title">לוח, צ׳יפים וערכות יין מתחלפות.</h2>
           <p>
-            The first package plan includes printed instructions, a folded play mat,
-            chips for up to 10 players, chip bags, a package case, a dealer chip,
-            and trading chips.
+            המשחק בנוי לשימוש חוזר. אחרי שמסיימים ערכת יינות אחת, אפשר להזמין
+            ערכה חדשה עם יינות מוסתרים, מעטפות ותשובות חדשות.
           </p>
         </div>
         <ul class="package-list">
-          <li>Game instructions</li>
-          <li>Folded play mat</li>
-          <li>30 chips for 10 players</li>
-          <li>Container bags</li>
-          <li>Package case</li>
-          <li>Dealer chip</li>
-          <li>Trading chips</li>
+          <li>לוח משחק CaVino</li>
+          <li>צ׳יפים לעד 10 שחקנים</li>
+          <li>צ׳יפ סומלייה</li>
+          <li>דפי שחקן וכרטיסי תשלום</li>
+          <li>ערכות יין מוסתרות</li>
+          <li>מעטפות עם תשובות ועובדות</li>
         </ul>
       </section>
 
-      <section class="section event-band" id="events" aria-labelledby="events-title">
-        <div>
-          <p class="eyebrow">For shops and hosts</p>
-          <h2 id="events-title">Bring CaVino to a tasting night.</h2>
+      <section class="waitlist" id="waitlist" aria-labelledby="waitlist-title">
+        <div class="waitlist-copy">
+          <p class="eyebrow">רשימת המתנה</p>
+          <h2 id="waitlist-title">רוצים לדעת כש-CaVino יוצא?</h2>
+          <p>
+            השאירו פרטים ונעדכן כשאפשר יהיה לקנות את המשחק. זה גם עוזר לנו להבין
+            כמה ערכות להכין בהשקה.
+          </p>
+          <p class="success-message" id="success-message" hidden>
+            תודה, הפרטים התקבלו. נדבר כש-CaVino יהיה מוכן.
+          </p>
         </div>
-        <p>
-          CaVino can be introduced as a hosted wine-shop activity, with the game
-          explained at the table, selected wines prepared in advance, and a simple
-          feedback or interest list gathered after the session.
-        </p>
-        <a class="button primary" href="mailto:hello@example.com?subject=Host CaVino">
-          Plan an event
-        </a>
+
+        <form
+          class="lead-form"
+          action="https://formsubmit.co/randayan10@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="CaVino waitlist signup" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://rnd247.github.io/cavino/?joined=1#waitlist"
+          />
+
+          <label>
+            שם מלא
+            <input name="name" type="text" autocomplete="name" required />
+          </label>
+          <label>
+            אימייל
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label>
+            טלפון
+            <input name="phone" type="tel" autocomplete="tel" />
+          </label>
+          <label>
+            כמה עותקים מעניינים אותך?
+            <select name="copies">
+              <option value="1">עותק אחד</option>
+              <option value="2">שני עותקים</option>
+              <option value="3+">3 ומעלה</option>
+              <option value="event">ערב טעימות / אירוע</option>
+            </select>
+          </label>
+          <button class="button primary" type="submit">הצטרפות</button>
+        </form>
       </section>
     </main>
 
     <footer class="site-footer">
       <span>CaVino</span>
-      <span>Replace hello@example.com with your public contact email.</span>
+      <span>משחק טעימות יין חברתי. בקרוב.</span>
     </footer>
 
     <script src="script.js"></script>
