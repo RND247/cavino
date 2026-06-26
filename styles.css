@@ -288,13 +288,22 @@ h3 {
   max-width: 620px;
 }
 
-.success-message {
+.form-message {
   padding: 14px 16px;
-  border: 1px solid rgba(64, 91, 69, 0.3);
   border-radius: 7px;
+  font-weight: 900;
+}
+
+.success-message {
+  border: 1px solid rgba(64, 91, 69, 0.3);
   color: var(--olive);
   background: rgba(64, 91, 69, 0.08);
-  font-weight: 800;
+}
+
+.error-message {
+  border: 1px solid rgba(124, 23, 49, 0.3);
+  color: var(--wine);
+  background: rgba(124, 23, 49, 0.08);
 }
 
 .lead-form {
@@ -329,6 +338,11 @@ h3 {
 .lead-form button {
   width: 100%;
   margin-top: 4px;
+}
+
+.lead-form button:disabled {
+  cursor: wait;
+  opacity: 0.72;
 }
 
 .site-footer {

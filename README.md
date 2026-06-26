@@ -10,6 +10,8 @@ Public URL: https://rnd247.github.io/cavino/
 - Core game visual: the CaVino play mat
 - Waitlist form for collecting early interest
 - Mobile-friendly static website for GitHub Pages
+- Google Sheet for collected leads:
+  https://docs.google.com/spreadsheets/d/1m2BAGVi_ulpXVZvRJcAyAXG4udm2g7Jc9ld86Sj9NSU/edit
 
 ## Files
 
@@ -17,6 +19,12 @@ Public URL: https://rnd247.github.io/cavino/
 - `styles.css` - responsive visual design
 - `script.js` - smooth scrolling and post-signup message
 - `assets/playmat.jpg` - optimized play mat image
+- `google-apps-script/Code.gs` - Google Apps Script receiver for waitlist submissions
 
-The waitlist form currently sends signups through FormSubmit to `randayan10@gmail.com`.
-The first real submission may require confirming that email address.
+## Waitlist Setup
+
+The waitlist form submits to the `CaVino Waitlist Receiver` Google Apps Script
+web app, which appends new rows to the `CaVino Waitlist Leads` spreadsheet.
+
+Web App URL:
+https://script.google.com/macros/s/AKfycbxOgAzszRbEsrozb5zLsXzvnSIbQrCUPoHqlWx7zVAYYYBUeuyL-yJnHIeO3-vxSDT-/exec

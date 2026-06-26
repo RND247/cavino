@@ -115,24 +115,20 @@
             השאירו פרטים ונעדכן כשאפשר יהיה לקנות את המשחק. זה גם עוזר לנו להבין
             כמה ערכות להכין בהשקה.
           </p>
-          <p class="success-message" id="success-message" hidden>
-            תודה, הפרטים התקבלו. נדבר כש-CaVino יהיה מוכן.
+          <p class="form-message success-message" id="success-message" hidden>
+            נרשמת בהצלחה.
+          </p>
+          <p class="form-message error-message" id="error-message" hidden>
+            משהו לא עבר. אפשר לנסות שוב בעוד רגע.
           </p>
         </div>
 
         <form
           class="lead-form"
-          action="https://formsubmit.co/randayan10@gmail.com"
+          data-endpoint="https://script.google.com/macros/s/AKfycbxOgAzszRbEsrozb5zLsXzvnSIbQrCUPoHqlWx7zVAYYYBUeuyL-yJnHIeO3-vxSDT-/exec"
           method="POST"
         >
-          <input type="hidden" name="_subject" value="CaVino waitlist signup" />
-          <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_captcha" value="false" />
-          <input
-            type="hidden"
-            name="_next"
-            value="https://rnd247.github.io/cavino/?joined=1#waitlist"
-          />
+          <input type="hidden" name="source" value="CaVino landing page" />
 
           <label>
             שם מלא
@@ -145,15 +141,6 @@
           <label>
             טלפון
             <input name="phone" type="tel" autocomplete="tel" />
-          </label>
-          <label>
-            כמה עותקים מעניינים אותך?
-            <select name="copies">
-              <option value="1">עותק אחד</option>
-              <option value="2">שני עותקים</option>
-              <option value="3+">3 ומעלה</option>
-              <option value="event">ערב טעימות / אירוע</option>
-            </select>
           </label>
           <button class="button primary" type="submit">הצטרפות</button>
         </form>
